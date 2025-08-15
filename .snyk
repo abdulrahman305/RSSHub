@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ws:20160920':
+    - node-network-devtools > inspector > ws:
+        patched: '2025-08-15T01:05:47.420Z'
+        id: 'npm:ws:20160920'
+        path: node-network-devtools > inspector > ws
